@@ -27,6 +27,15 @@ let g:airline_theme='luna'
 " youcompleteme autocomplete
 Plugin 'valloric/youcompleteme'
 
+" NERD commenter
+Plugin 'scrooloose/nerdcommenter'
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -42,3 +51,6 @@ set expandtab
 " Set 80 character line
 set colorcolumn=81
 hi ColorColumn ctermbg=DarkBlue
+" filetype plugin on for commenter
+filetype plugin on
+

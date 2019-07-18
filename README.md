@@ -21,6 +21,7 @@ My configuration of vimrc. Clone this when configuring a new computer.
 1. nerd-tree: file tree
 1. vim-airline/vim-airline-themes: status bar
 1. youcompleteme: auto completion
+1. NERD comenter: handy comment tool
 
 ## Other Setup
 1. Subsitute 4 spaces with tabs
