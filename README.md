@@ -22,6 +22,7 @@ My configuration of vimrc. Clone this when configuring a new computer.
 1. vim-airline/vim-airline-themes: status bar
 1. youcompleteme: auto completion
 1. NERD comenter: handy comment tool
+1. Incremental search: high light search patterns incrementally
 
 ## Other Setup
 1. Subsitute 4 spaces with tabs
