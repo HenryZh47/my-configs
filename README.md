@@ -10,8 +10,13 @@ My configuration of vimrc. Clone this when configuring a new computer.
 1. Copy the content of file `my-vimrc` into `~/.vimrc`.
 1. Run `:PluginInstall` in Vim to install vundle packages.
 1. Install YouCompleleteMe package with the following script:
+    * Install dependencies
     ```
-    cd ~/.vim/bundle/YouCompleteMe
+    sudo apt-get install build-essential cmake python3-dev
+    ```
+    * Install `youcompleteme` package
+    ```
+    cd ~/.vim/bundle/youcompleteme
     python3 install.py --clang-completer
     ```
 
