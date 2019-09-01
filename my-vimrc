@@ -59,3 +59,5 @@ set colorcolumn=81
 hi ColorColumn ctermbg=DarkBlue
 " filetype plugin on for commenter
 filetype plugin on
+" relatvie line number
+set nu rnu

@@ -32,6 +32,7 @@ My configuration of vimrc. Clone this when configuring a new computer.
 ## Other Setup
 1. Subsitute 4 spaces with tabs
 1. 80 char limits
+1. Relative line number
 
 ## TODO
 1. Write a script to automate the above procedures.
