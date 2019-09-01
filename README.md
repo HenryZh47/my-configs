@@ -1,7 +1,12 @@
 # my-vimrc
 My configuration of vimrc. Clone this when configuring a new computer.
 
-## Setup Procedure
+## Setup
+1. Make sure vim is installed on this machine.
+1. Change the permission of the setup file: `chmod +x ./setup.sh`
+1. Run setup script: `./setup.sh`
+
+## Manual Setup Procedure
 
 1. Install Vundle, a vim package management tool.
     ```
@@ -30,9 +35,6 @@ My configuration of vimrc. Clone this when configuring a new computer.
 1. Incremental search: high light search patterns incrementally
 
 ## Other Setup
-1. Subsitute 4 spaces with tabs
+1. Subsitute tabs with 4 spaces 
 1. 80 char limits
 1. Relative line number
-
-## TODO
-1. Write a script to automate the above procedures.
