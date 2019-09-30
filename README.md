@@ -35,6 +35,6 @@ My configuration of vimrc. Clone this when configuring a new computer.
 1. Incremental search: high light search patterns incrementally
 
 ## Other Setup
-1. Subsitute tabs with 4 spaces 
+1. Subsitute tabs with 2 spaces 
 1. 80 char limits
 1. Relative line number
