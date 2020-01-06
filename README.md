@@ -1,12 +1,28 @@
 # my-vimrc
 My configuration of vimrc. Clone this when configuring a new computer.
 
-## Setup
+## Setup (TODO: this needs to be updated for neovim and coc)
 1. Make sure vim is installed on this machine.
 1. Change the permission of the setup file: `chmod +x ./setup.sh`
 1. Run setup script: `./setup.sh`
 
-## Manual Setup Procedure
+## Neovim
+Build Neovim from source for latest features.
+
+## COC (Conquer of Completion) packages
+1. coc-snippets
+1. coc-pairs
+1. coc-json
+1. coc-highlight
+1. coc-list
+1. coc-python
+1. coc-prettier
+
+## Key-bindings
+1. show all completion (insert mode): Ctrl+n / Ctrl+p
+1. delete forward (insert mode): Ctrl+h
+
+## Manual Setup Procedure (TODO: this also needs to change)
 
 1. Install Vundle, a vim package management tool.
     ```
