@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
 " clang format
 Plug 'rhysd/vim-clang-format'
 let g:clang_format#auto_format = 1
+let g:clang_format#code_style = 'google'
 
 " easy align
 Plug 'junegunn/vim-easy-align'

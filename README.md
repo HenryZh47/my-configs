@@ -18,6 +18,19 @@ Build Neovim from source for latest features.
 1. coc-python
 1. coc-prettier
 
+## clangd linting and completion
+* export `compile_commands.json` for each of the packages:
+
+    ```
+    cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+    ```
+
+* combine the `.json` files to the root directory:
+
+    ```
+    cat ./build/**/compile_commands.json > compile_commands.json && sed -i -e ':a;N;$!ba;s/\]\n*\[/,/g' compile_commands.json
+    ```
+
 ## Key-bindings
 1. show all completion (insert mode): Ctrl+n / Ctrl+p
 1. delete forward (insert mode): Ctrl+h
