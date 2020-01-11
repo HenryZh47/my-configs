@@ -8,15 +8,43 @@ My configuration of vimrc. Clone this when configuring a new computer.
 
 ## Neovim
 Build Neovim from source for latest features.
+1. clone git repo
+
+    ```
+    git clone https://github.com/neovim/neovim.git
+    ```
+
+1. build and install neovim
+
+    ```
+    make CMAKE_BUILD_TYPE=RelWithDebInfo
+    sudo make install
+    ```
+
+## VimPlug
+Install VimPlug package tool for neovim
+    
+    ```
+    curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    ```
 
 ## COC (Conquer of Completion) packages
-1. coc-snippets
-1. coc-pairs
-1. coc-json
-1. coc-highlight
-1. coc-list
-1. coc-python
-1. coc-prettier
+1. Install nodejs
+
+    ```
+    curl -sL install-node.now.sh/lts | bash
+    ```
+
+1. Install with `CocInstall <package name>`
+    * coc-snippets
+    * coc-pairs
+    * coc-json
+    * coc-highlight
+    * coc-list
+    * coc-python
+    * coc-prettier
+    * coc-texlab
 
 ## clangd linting and completion
 * export `compile_commands.json` for each of the packages:
@@ -34,34 +62,19 @@ Build Neovim from source for latest features.
 ## Key-bindings
 1. show all completion (insert mode): Ctrl+n / Ctrl+p
 1. delete forward (insert mode): Ctrl+h
-
-## Manual Setup Procedure (TODO: this also needs to change)
-
-1. Install Vundle, a vim package management tool.
-    ```
-    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-    ```
-1. Copy the content of file `my-vimrc` into `~/.vimrc`.
-1. Run `:PluginInstall` in Vim to install vundle packages.
-1. Install YouCompleleteMe package with the following script:
-    * Install dependencies
-    ```
-    sudo apt-get install build-essential cmake python3-dev
-    ```
-    * Install `youcompleteme` package
-    ```
-    cd ~/.vim/bundle/youcompleteme
-    python3 install.py --clang-completer
-    ```
+1. show diagnostics: Space+a
+1. show all extensions: Space+e
 
 ## Package List
-1. VundleVim: package management
+1. VimPlug: package management
+1. coc.nvim: Conquer of Completion
+1. vim-easy-align: alignment
 1. vim-fugitive: version control
 1. nerd-tree: file tree
 1. vim-airline/vim-airline-themes: status bar
-1. youcompleteme: auto completion
 1. NERD comenter: handy comment tool
 1. Incremental search: high light search patterns incrementally
+1. gruvbox: color scheme
 
 ## Other Setup
 1. Subsitute tabs with 2 spaces 

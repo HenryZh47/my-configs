@@ -143,3 +143,5 @@ set nu rnu
 " color scheme
 colorscheme gruvbox
 set bg=dark
+" esc clear search highlight
+nnoremap <esc> :noh<return><esc>
