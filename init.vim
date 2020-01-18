@@ -145,3 +145,8 @@ colorscheme gruvbox
 set bg=dark
 " esc clear search highlight
 nnoremap <esc> :noh<return><esc>
+" create tabs
+nnoremap tn :tabnew<CR>
+nnoremap tw :tabclose<CR>
+nnoremap tl :tabnext<CR>
+nnoremap th :tabprev<CR>

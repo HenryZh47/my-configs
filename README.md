@@ -64,6 +64,10 @@ Install VimPlug package tool for neovim
 1. delete forward (insert mode): Ctrl+h
 1. show diagnostics: Space+a
 1. show all extensions: Space+e
+1. new tab: tn
+1. close tab: tw
+1. next tab: tl
+1. previous tab: th
 
 ## Package List
 1. VimPlug: package management
