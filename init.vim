@@ -150,3 +150,4 @@ nnoremap tn :tabnew<CR>
 nnoremap tw :tabclose<CR>
 nnoremap tl :tabnext<CR>
 nnoremap th :tabprev<CR>
+nnoremap cf :ClangFormatAutoToggle<CR>
