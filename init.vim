@@ -1,8 +1,12 @@
 set nocompatible              " be iMproved, required
+set mouse=a
 filetype off                  " required
 
 " VimPlug plugins
 call plug#begin('~/.vim/plugged')
+
+" vim ispc (ispc syntax highlighting)
+Plug 'jez/vim-ispc'
 
 " clang format
 Plug 'rhysd/vim-clang-format'
