@@ -19,4 +19,4 @@ My configuration of zshrc. Clone this when configuring a new computer.
     ```
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     ```
-1. Copy the content of `my-zshrc` to `~/.zshrc`
+1. Copy the content of `my-zshrc` to `~/.zshrc` and change username
