@@ -1,7 +1,7 @@
 # my-vimrc
 My configuration of vimrc. Clone this when configuring a new computer.
 
-## Setup (TODO: this needs to be updated for neovim and coc)
+## Vim Setup (TODO: this needs to be updated for neovim and coc)
 1. Make sure vim is installed on this machine.
 1. Change the permission of the setup file: `chmod +x ./setup.sh`
 1. Run setup script: `./setup.sh`
