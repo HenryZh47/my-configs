@@ -12,7 +12,7 @@ if test -f "$VIMRC"; then
     mv $HOME/.vimrc $HOME/.vimrc-backup
     sleep 3
 fi
-cp ./my-vimrc $HOME/.vimrc
+cp ./vimrc.vim $HOME/.vimrc
 
 # Install vundle packages
 vim +PluginInstall +qall
