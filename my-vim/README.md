@@ -46,6 +46,9 @@ Install VimPlug package tool for neovim
     * coc-prettier
     * coc-texlab
 
+## Configuration files
+1. Copy the content of `init.vim` and `coc-settings.json` to `~/.config/nvim`
+
 ## clangd linting and completion
 * export `compile_commands.json` for each of the packages:
 
