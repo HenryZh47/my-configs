@@ -12,6 +12,7 @@ Plug 'jez/vim-ispc'
 Plug 'rhysd/vim-clang-format'
 let g:clang_format#auto_format = 1
 let g:clang_format#code_style = 'google'
+nmap ft :ClangFormatAutoToggle<CR>
 
 " easy align
 Plug 'junegunn/vim-easy-align'
