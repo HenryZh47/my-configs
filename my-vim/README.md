@@ -71,6 +71,7 @@ Install VimPlug package tool for neovim
 1. close tab: tw
 1. next tab: tl
 1. previous tab: th
+1. ranger: ff
 
 ## Package List
 1. VimPlug: package management
@@ -82,6 +83,8 @@ Install VimPlug package tool for neovim
 1. NERD comenter: handy comment tool
 1. Incremental search: high light search patterns incrementally
 1. gruvbox: color scheme
+1. ranger: file explorer
+1. goyo: clean text display
 
 ## Other Setup
 1. Subsitute tabs with 2 spaces 

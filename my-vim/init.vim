@@ -1,6 +1,7 @@
 set nocompatible              " be iMproved, required
 set mouse=a
 filetype off                  " required
+set expandtab
 
 " VimPlug plugins
 call plug#begin('~/.vim/plugged')
@@ -54,6 +55,15 @@ Plug 'morhetz/gruvbox'
 
 " vim ROS
 " Plug 'taketwo/vim-ros'
+
+" ranger
+Plug 'rbgrouleff/bclose.vim'
+Plug 'francoiscabrol/ranger.vim'
+let g:ranger_map_keys = 0     " disable default key mapping
+nmap ff :Ranger<CR>
+
+" goyo
+Plug 'junegunn/goyo.vim'
 
 " Initialize plugin system
 call plug#end()
