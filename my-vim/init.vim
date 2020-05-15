@@ -20,6 +20,9 @@ Plug 'junegunn/vim-easy-align'
 
 " git fugitive
 Plug 'tpope/vim-fugitive'
+nmap <leader>gs :G<CR>
+nmap <leader>gk :diffget //3<CR>
+nmap <leader>gj :diffget //2<CR>
 
 " nerdtree
 Plug 'scrooloose/nerdtree'
@@ -53,9 +56,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Color scheme
 Plug 'morhetz/gruvbox'
 
-" vim ROS
-" Plug 'taketwo/vim-ros'
-
 " ranger
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
@@ -64,6 +64,10 @@ nmap ff :Ranger<CR>
 
 " goyo
 Plug 'junegunn/goyo.vim'
+
+" fzf (fuzzy finding)
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 
 " Initialize plugin system
 call plug#end()
