@@ -71,7 +71,9 @@ Install VimPlug package tool for neovim
 1. close tab: tw
 1. next tab: tl
 1. previous tab: th
-1. ranger: ff
+1. ranger: fr
+1. fzf files: ff
+1. fzf lines: fl
 
 ## Package List
 1. VimPlug: package management

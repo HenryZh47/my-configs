@@ -60,7 +60,7 @@ Plug 'morhetz/gruvbox'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
 let g:ranger_map_keys = 0     " disable default key mapping
-nmap ff :Ranger<CR>
+nmap fr :Ranger<CR>
 
 " goyo
 Plug 'junegunn/goyo.vim'
@@ -68,6 +68,8 @@ Plug 'junegunn/goyo.vim'
 " fzf (fuzzy finding)
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+nmap ff :Files!<CR>
+nmap fl :BLines!<CR>
 
 " Initialize plugin system
 call plug#end()
