@@ -71,6 +71,9 @@ Plug 'junegunn/fzf.vim'
 nmap ff :Files!<CR>
 nmap fl :BLines!<CR>
 
+" snippet
+Plug 'honza/vim-snippets'
+
 " Initialize plugin system
 call plug#end()
 
